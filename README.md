@@ -6,7 +6,7 @@
 	5.借阅管理
 	6.借阅记录
 	7.图书概览
-	另外还有主题功能，有多个主题可供选择(主题代码被我注释了，在store/modules/menu.js下) 
+	另外还有主题功能，有多个主题可供选择(store/modules/menu.js) 
 	可以全屏放大缩小
 ## 技术栈
 ```js
@@ -55,4 +55,5 @@
    
  ## 参考
  iView GitHub：https://github.com/iview/iview
+
  iView Admin GitHub：https://github.com/iview/iview-admin
