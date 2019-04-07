@@ -1,0 +1,10 @@
+2019-04-08 00:12:00,631 INFO 17074 [egg:logger] init all loggers with options: {"dir":"/Users/chenyu/treasure/vue/iview-book-admin/server/logs/tsegg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"tsegg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-04-08 00:12:00,759 INFO 17074 [egg:core] dump config after load, 3ms
+2019-04-08 00:12:00,795 INFO 17074 [egg-watcher] Start watching: ["/Users/chenyu/treasure/vue/iview-book-admin/server/app","/Users/chenyu/treasure/vue/iview-book-admin/server/config","/Users/chenyu/treasure/vue/iview-book-admin/server/mocks","/Users/chenyu/treasure/vue/iview-book-admin/server/mocks_proxy","/Users/chenyu/treasure/vue/iview-book-admin/server/app.js"]
+2019-04-08 00:12:00,795 INFO 17074 [egg-watcher] Start watching: "/Users/chenyu/treasure/vue/iview-book-admin/server/app"
+2019-04-08 00:12:00,795 INFO 17074 [egg-watcher] Start watching: "/Users/chenyu/treasure/vue/iview-book-admin/server/config"
+2019-04-08 00:12:00,795 INFO 17074 [egg-watcher] Start watching: "/Users/chenyu/treasure/vue/iview-book-admin/server/mocks"
+2019-04-08 00:12:00,795 INFO 17074 [egg-watcher] Start watching: "/Users/chenyu/treasure/vue/iview-book-admin/server/mocks_proxy"
+2019-04-08 00:12:00,795 INFO 17074 [egg-watcher] Start watching: "/Users/chenyu/treasure/vue/iview-book-admin/server/app.js"
+2019-04-08 00:12:00,796 INFO 17074 [egg-watcher:agent] watcher start success
+2019-04-08 00:12:00,809 INFO 17074 [egg:core] dump config after ready, 4ms

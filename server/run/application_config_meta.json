@@ -1,0 +1,301 @@
+{
+  "keys": "/Users/chenyu/treasure/vue/iview-book-admin/server/config/config.default.js",
+  "auth_cookie_name": "/Users/chenyu/treasure/vue/iview-book-admin/server/config/config.default.js",
+  "middleware": "/Users/chenyu/treasure/vue/iview-book-admin/server/config/config.default.js",
+  "mongoose": {
+    "url": "/Users/chenyu/treasure/vue/iview-book-admin/server/config/config.default.js",
+    "options": "/Users/chenyu/treasure/vue/iview-book-admin/server/config/config.default.js",
+    "loadModel": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-mongoose/config/config.default.js",
+    "app": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-mongoose/config/config.default.js",
+    "agent": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-mongoose/config/config.default.js"
+  },
+  "security": {
+    "csrf": {
+      "enable": "/Users/chenyu/treasure/vue/iview-book-admin/server/config/config.default.js",
+      "useSession": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-security/config/config.default.js"
+    },
+    "domainWhiteList": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "onerror": {
+    "all": "/Users/chenyu/treasure/vue/iview-book-admin/server/config/config.default.js",
+    "errorPageUrl": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-onerror/config/config.default.js"
+  },
+  "multipart": {
+    "fileSize": "/Users/chenyu/treasure/vue/iview-book-admin/server/config/config.default.js",
+    "mode": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "session": {
+    "maxAge": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-schedule/config/config.default.js"
+  },
+  "development": {
+    "watchDirs": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+  "name": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+    "version": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+    "description": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+    "private": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+    "dependencies": {
+      "async-validator": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+      "captchapng": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+      "egg": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+      "egg-mongoose": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+      "egg-passport": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+      "egg-session": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+      "node-uuid": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+      "passport-local": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+      "uuid": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "autod": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+      "webstorm-disable-index": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+      "stop": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+      "dev": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+      "debug": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+      "test": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+      "cov": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+      "lint": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+      "ci": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+      "autod": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+      "tsc:w": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+      "url": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+    "license": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+    "strict": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+      "depth": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+    "env": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+    "level": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+    "logging": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+      "port": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg/config/config.default.js"
+}

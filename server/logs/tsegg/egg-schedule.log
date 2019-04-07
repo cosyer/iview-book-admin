@@ -1,0 +1,4 @@
+2019-04-08 00:12:01,438 INFO 17075 [egg-schedule]: register schedule /Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-04-08 00:12:01,438 INFO 17075 [egg-schedule]: register schedule /Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-04-08 00:12:01,835 INFO 17074 [Timer] /Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 85678168ms at 2019-04-09 00:00:00.003
+2019-04-08 00:12:01,836 INFO 17074 [Timer] /Users/chenyu/treasure/vue/iview-book-admin/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 85679165ms at 2019-04-09 00:00:01.001

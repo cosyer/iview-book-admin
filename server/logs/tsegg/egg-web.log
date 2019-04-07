@@ -1,0 +1,17 @@
+2019-04-08 00:12:01,411 INFO 17075 [egg:logger] init all loggers with options: {"dir":"/Users/chenyu/treasure/vue/iview-book-admin/server/logs/tsegg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"tsegg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-08 00:12:01,438 INFO 17075 [egg-multipart] stream mode enable
+2019-04-08 00:12:01,694 INFO 17075 [egg-mongoose] connecting mongodb://111.231.121.29:27017/book
+2019-04-08 00:12:01,767 INFO 17075 [egg-static] starting static serve /public/ -> /Users/chenyu/treasure/vue/iview-book-admin/server/app/public
+2019-04-08 00:12:01,769 INFO 17075 [egg-security] use methodnoallow middleware
+2019-04-08 00:12:01,770 INFO 17075 [egg-security] use noopen middleware
+2019-04-08 00:12:01,770 INFO 17075 [egg-security] use nosniff middleware
+2019-04-08 00:12:01,771 INFO 17075 [egg-security] use xssProtection middleware
+2019-04-08 00:12:01,771 INFO 17075 [egg-security] use xframe middleware
+2019-04-08 00:12:01,772 INFO 17075 [egg-security] use dta middleware
+2019-04-08 00:12:01,772 INFO 17075 [egg-security] compose 6 middlewares into one security middleware
+2019-04-08 00:12:01,784 INFO 17075 [egg:core] dump config after load, 5ms
+2019-04-08 00:12:01,786 INFO 17075 [egg-mongoose] starting...
+2019-04-08 00:12:01,811 INFO 17075 [egg-watcher:application] watcher start success
+2019-04-08 00:12:01,823 INFO 17075 [egg-mongoose] mongodb://111.231.121.29:27017/book connected successfully
+2019-04-08 00:12:01,824 INFO 17075 [egg-mongoose] instance[0] start successfully
+2019-04-08 00:12:01,829 INFO 17075 [egg:core] dump config after ready, 3ms
