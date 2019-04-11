@@ -36,16 +36,19 @@ export default {
     this.initPwdLocal();
   },
   methods: {
+    // 刷新验证码
     resetCode() {
       this.code = `/api/login/checkcode?t=${+new Date()}`;
       this.forms.img = "";
     },
+    // 登录
     async submit() {
       let result = await this.$refs.forms.validate();
       if (!result) return;
       this.loading = true;
       try {
         let { data } = await User.login(this.$QS.stringify(this.forms));
+        // application/x-www-form-urlencoded 表单数据
         this.loading = false;
         this.$Message.success("登录成功");
         this.pwdlocal();
@@ -56,7 +59,7 @@ export default {
         this.resetCode();
       }
     },
-    //记住密码
+    // 记住密码
     pwdlocal() {
       if (this.remember) {
         storage.setLocal("password", this.forms.password);
@@ -66,7 +69,7 @@ export default {
         storage.setLocal("userName", "");
       }
     },
-    //获取密码
+    // 获取密码
     initPwdLocal() {
       if (this.remember) {
         this.forms.password = storage.getLocal("password") || "";

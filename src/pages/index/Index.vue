@@ -2,21 +2,24 @@
 @import "./style.less";
 </style>
 <template>
-    <div class="main">
-        <!-- header -->
-        <MainHeader />
-        <!-- Menu -->
-        <SidebarMenu />
-        <div class="single-page-con" :class="{'single-page-sk':hideMenuText}">
-            <!-- routers-tags -->
-            <RouteBox />
-            <div class="single-page">
-                <keep-alive :include="cacheStr">
-                    <router-view></router-view>
-                </keep-alive>
-            </div>
-        </div>
+  <div class="main">
+    <!-- header -->
+    <MainHeader />
+    <!-- Menu -->
+    <SidebarMenu />
+    <div
+      class="single-page-con"
+      :class="{'single-page-sk':hideMenuText}"
+    >
+      <!-- routers-tags -->
+      <RouteBox />
+      <div class="single-page">
+        <keep-alive :include="cacheStr">
+          <router-view></router-view>
+        </keep-alive>
+      </div>
     </div>
+  </div>
 </template>
 <script>
 import { LOGOUT } from "@/utils/interface";
@@ -37,10 +40,9 @@ export default {
     roleName: state => state.users.roleName,
     cacheStr(state) {
       return state.cache.cacheList.join(",");
-    },
+    }
   }),
-  created() {
-  }
+  created() {}
 };
 </script>
 

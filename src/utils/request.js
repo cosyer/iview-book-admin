@@ -29,6 +29,7 @@ axios.interceptors.response.use(
       utils.$Message.error(`${data.code}：${data.message}`);
     }
     if (status == 403) {
+      // 发起actions
       $store.dispatch("menu/logOutBtn");
     }
 
