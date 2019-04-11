@@ -1,11 +1,9 @@
 import Vue from "vue";
 import storage from "@/utils/storage.js";
-import $router from "@/router/index";
 import QS from "querystring";
 let Message = Vue.prototype.$Message;
 
 Date.prototype.Format = function(fmt) {
-  //author: meizz
   var o = {
     "M+": this.getMonth() + 1, //月份
     "d+": this.getDate(), //日

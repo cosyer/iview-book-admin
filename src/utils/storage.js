@@ -1,6 +1,6 @@
 /**本地存储 */
 export default {
-  session: window.localStorage,
+  session: window.sessionStorage,
   local: window.localStorage,
   set(type, key, value) {
     if (this.isString(value)) {
