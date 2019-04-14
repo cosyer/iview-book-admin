@@ -1,36 +1,97 @@
 <template>
-    <div class="fy-upload">
-        <div v-if="!showList ||isLoadImg" class="demo-upload-list" v-for="(item,index) in uploadList">
-            <template v-if="item.status === 'finished'">
-                <img :src="beforeURL+item.url">
-                <div class="demo-upload-list-cover">
-                    <Icon type="ios-eye-outline" @click.native="handleView(index)"></Icon>
-                    <Icon type="ios-trash-outline" @click.native="handleRemove(item)"></Icon>
-                </div>
-            </template>
-            <template v-else>
-                <Progress status="active" stroke-width="6" v-if="item.showProgress" :percent="item.percentage" hide-info></Progress>
-            </template>
+  <div
+    class="fy-upload"
+    v-if="!showList || isLoadImg"
+  >
+    <div
+      class="demo-upload-list"
+      v-for="(item,index) in uploadList"
+      :key="index"
+    >
+      <template v-if="item.status === 'finished'">
+        <img :src="beforeURL+item.url">
+        <div class="demo-upload-list-cover">
+          <Icon
+            type="ios-eye-outline"
+            @click.native="handleView(index)"
+          ></Icon>
+          <Icon
+            type="ios-trash-outline"
+            @click.native="handleRemove(item)"
+          ></Icon>
         </div>
-        <Upload ref="upload" :headers="headers" :default-file-list="defaultList" :show-upload-list="showList" :on-success="handleSuccess" :format="format" :max-size="maxSize" :on-format-error="handleFormatError" :on-exceeded-size="handleMaxSize" :before-upload="handleBeforeUpload" :multiple="multiple" type="drag" :name="name" :action="action" style="display: inline-block;width:58px;">
-            <div v-if="isLoadImg" style="width: 58px;height:58px;line-height: 58px;padding-right:1px">
-                <Icon type="camera" size="20"></Icon>
-            </div>
-            <slot></slot>
-        </Upload>
-        <Modal class="fy-upload-modal" :width="900" v-if="isLoadImg" top="5%" transfer title="查看大图" v-model="visible" @on-visible-change="visibleChange">
-            <div style="width:100%">
-                <Carousel class="img-carousel" v-if="Carvisible" v-model="imgIndex" loop>
-                    <CarouselItem v-for="(item,index) in uploadList" :key="index">
-                        <div class="img-wrap">
-                            <img :src="beforeURL+item.url" style="width:100%">
-                        </div>
-                    </CarouselItem>
-                </Carousel>
-            </div>
-            <div slot="footer"></div>
-        </Modal>
+      </template>
+      <template v-else>
+        <Progress
+          status="active"
+          stroke-width="6"
+          v-if="item.showProgress"
+          :percent="item.percentage"
+          hide-info
+        ></Progress>
+      </template>
     </div>
+    <Upload
+      ref="upload"
+      :headers="headers"
+      :default-file-list="defaultList"
+      :show-upload-list="showList"
+      :on-success="handleSuccess"
+      :format="format"
+      :max-size="maxSize"
+      :on-format-error="handleFormatError"
+      :on-exceeded-size="handleMaxSize"
+      :before-upload="handleBeforeUpload"
+      :multiple="multiple"
+      type="drag"
+      :name="name"
+      :action="action"
+      style="display: inline-block;width:58px;"
+    >
+      <div
+        v-if="isLoadImg"
+        style="width: 58px;height:58px;line-height: 58px;padding-right:1px"
+      >
+        <Icon
+          type="camera"
+          size="20"
+        ></Icon>
+      </div>
+      <slot></slot>
+    </Upload>
+    <Modal
+      class="fy-upload-modal"
+      :width="900"
+      v-if="isLoadImg"
+      top="5%"
+      transfer
+      title="查看大图"
+      v-model="visible"
+      @on-visible-change="visibleChange"
+    >
+      <div style="width:100%">
+        <Carousel
+          class="img-carousel"
+          v-if="Carvisible"
+          v-model="imgIndex"
+          loop
+        >
+          <CarouselItem
+            v-for="(item,index) in uploadList"
+            :key="index"
+          >
+            <div class="img-wrap">
+              <img
+                :src="beforeURL+item.url"
+                style="width:100%"
+              >
+            </div>
+          </CarouselItem>
+        </Carousel>
+      </div>
+      <div slot="footer"></div>
+    </Modal>
+  </div>
 </template>
 <script>
 /**
