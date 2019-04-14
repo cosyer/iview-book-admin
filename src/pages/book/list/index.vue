@@ -158,7 +158,6 @@
       >
       </Page>
     </Block>
-    <!--  -->
     <NewRow
       :modal="modal"
       @ok="showList()"
