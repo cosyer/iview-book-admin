@@ -1,7 +1,10 @@
 <template>
-    <div id="app-box" :class="theme">
-        <router-view></router-view>
-    </div>
+  <div
+    id="app-box"
+    :class="theme"
+  >
+    <router-view></router-view>
+  </div>
 </template>
 
 <script>
