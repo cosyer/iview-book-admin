@@ -39,21 +39,27 @@ npm run dev
 // };
 
 // 数据库需要插入一条初始admin的数据
-//   db.users.insert({
-//       "userName":"admin",
-//       "password":"admin",
-//       "isAdmin": true
-//   })
+// db.users.insert({
+//     "userName":"admin",
+//     "password":"admin",
+//     "isAdmin": true
+// })
 cd server
 npm i 
 npm run dev
 
 // 打开地址 http://127.0.0.1:7001/public/web/index.html
 ```
+
+## 优化
+- 斑马纹stripe
+- 筛选 sortable
+- 简介过长tooltip提示
+- v-for key取unique key
    
- ## 参考
- iView GitHub：https://github.com/iview/iview
+## 参考
+iView GitHub：https://github.com/iview/iview
 
- iView Admin GitHub：https://github.com/iview/iview-admin
+iView Admin GitHub：https://github.com/iview/iview-admin
 
- [View UI](https://www.iviewui.com/docs/introduce) 不推荐升级，样式变动很大。 
+[View UI](https://www.iviewui.com/docs/introduce) 不推荐升级，样式变动很大。 
