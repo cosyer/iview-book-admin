@@ -9,5 +9,6 @@
   "FormItem",
   "Input",
   "Row",
-  "Col"
+  "Col",
+  "Tooltip"
 ].map(item => (window[item] = item));

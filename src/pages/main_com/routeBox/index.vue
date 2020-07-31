@@ -38,7 +38,7 @@
           @click.native="toPage(page)"
           @on-close="closeHandler(page)"
           v-for="(page,index) in pageList"
-          :key="index"
+          :key="page.name"
           :name="page.name"
           type="dot"
           class="no-select"
@@ -59,16 +59,16 @@ export default {
     return {
       tagBodyLeft: 0,
       refsTag: [],
-      tagsCount: 1
+      tagsCount: 1,
     };
   },
   computed: mapState({
-    pageList: state => state.menu.pageList,
-    currPageName: state => state.menu.currPageName,
-    root: state => state.menu.root,
+    pageList: (state) => state.menu.pageList,
+    currPageName: (state) => state.menu.currPageName,
+    root: (state) => state.menu.root,
     tagsList(state) {
       return state.menu.pageList;
-    }
+    },
   }),
   methods: {
     closeHandler({ name }) {
@@ -140,7 +140,7 @@ export default {
           20
         );
       }
-    }
+    },
   },
   mounted() {
     this.refsTag = this.$refs.tagsPageOpened;
@@ -165,8 +165,8 @@ export default {
         });
       });
       this.tagsCount = this.tagsList.length;
-    }
-  }
+    },
+  },
 };
 </script>
 

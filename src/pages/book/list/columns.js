@@ -54,8 +54,19 @@ export default function() {
       key: "desc",
       align: "center",
       render: (h, { row }) => {
-        let text = row.desc ? row.desc.substring(0, 5) + "..." : "";
-        return <span title={text}>{text}</span>;
+        let text = row.desc
+          ? row.desc.length > 5
+            ? row.desc.substring(0, 5) + "..."
+            : row.desc
+          : "";
+        return (
+          <Tooltip placement="top">
+            {text}
+            <div slot="content" style="white-space: normal;">
+              <p>{row.desc}</p>
+            </div>
+          </Tooltip>
+        );
       }
     },
     {
