@@ -1,33 +1,50 @@
 <template>
-    <div>
-        <!-- 借阅量统计 -->
-        <Card class="con-card">
-            <h2 slot="title" class="font-center">
-                图书借阅量统计图
-            </h2>
-            <Row>
-                <Spin v-if="loading1" fix></Spin>
-                <div>
-                    <div class="min-height200" id="chart1"></div>
-                </div>
-            </Row>
-        </Card>
-        <br><br>
-        <!-- 借阅量统计 -->
-        <Card class="con-card">
-            <h2 slot="title" class="font-center">
-                图书借阅量统计
-            </h2>
-            <Table border :columns="columns" :data="data">
-            </Table>
-        </Card>
-    </div>
+  <div>
+    <!-- 借阅量统计 -->
+    <Card class="con-card">
+      <h2
+        slot="title"
+        class="font-center"
+      >
+        图书借阅量统计图
+      </h2>
+      <Row>
+        <Spin
+          v-if="loading1"
+          fix
+        ></Spin>
+        <div>
+          <div
+            class="min-height200"
+            id="chart1"
+          ></div>
+        </div>
+      </Row>
+    </Card>
+    <br><br>
+    <!-- 借阅量统计 -->
+    <Card class="con-card">
+      <h2
+        slot="title"
+        class="font-center"
+      >
+        图书借阅量统计
+      </h2>
+      <Table
+        border
+        stripe
+        :columns="columns"
+        :data="data"
+      >
+      </Table>
+    </Card>
+  </div>
 </template>
 
 <script>
 import { Book } from "@/service";
 import { readingInit } from "./charts/readingInit";
-import columns from './columns'
+import columns from "./columns";
 export default {
   name: "Ranking",
   data() {
@@ -36,7 +53,7 @@ export default {
       loading1: false,
       chart1: null,
       data: [],
-      columns: columns.call(this)
+      columns: columns.call(this),
     };
   },
   created() {
@@ -50,8 +67,8 @@ export default {
       this.$nextTick(() => {
         this.chart1 = readingInit({ dataset: this.dataSet, data }, this);
       });
-    }
-  }
+    },
+  },
 };
 </script>
 

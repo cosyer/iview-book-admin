@@ -141,6 +141,7 @@
     </SearchBox>
     <Table
       border
+      stripe
       @on-selection-change="selectChange"
       :columns="columns"
       :data="data"

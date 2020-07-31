@@ -62,6 +62,7 @@ export default function() {
       title: "借阅次数",
       key: "borrowTotal",
       align: "center",
+      sortable: true,
       render: (h, { row }) => {
         return row.borrowTotal || 0;
       }
@@ -70,6 +71,7 @@ export default function() {
       title: "上架时间",
       key: "createdAt",
       align: "center",
+      sortable: true,
       render: (h, { row }) => {
         return new Date(row.createdAt).Format("yyyy-MM-dd");
       }
